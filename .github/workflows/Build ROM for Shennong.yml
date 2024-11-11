@@ -5,11 +5,11 @@ on:
       URL:
         description: '移植包下载地址'
         required: true
-        default: 'https://example.com/path/to/your/port_package.zip'  # 请替换为实际地址
+        default: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.17.2.VOBCNXM/haotian-ota_full-OS2.0.17.2.VOBCNXM-user-15.0-6494c5a7d5.zip'  # 请替换为实际地址
       VENDOR_URL:
         description: '底包下载地址'
         required: true
-        default: 'https://example.com/path/to/your/vendor_package.zip'  # 请替换为实际地址
+        default: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS1.0.5.0.TJACNXM/miui_CMI_OS1.0.5.0.TJACNXM_64cdfa3fe5_13.0.zip'  # 请替换为实际地址
 
 jobs:
   build:
