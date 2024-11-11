@@ -1,4 +1,4 @@
-name: Build ROM for Shennong
+name: Build ROM for CMI
 on:
   workflow_dispatch:
     inputs:
@@ -15,7 +15,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      ROM_NAME: shennong_custom_rom  # 自定义ROM名称
+      ROM_NAME: cmi_custom_rom  # 自定义ROM名称
       GITHUB_ASSETS_DIR: ${{ github.workspace }}/GithubRelease  # GitHub资产目录
     steps:
       - name: 最大化构建环境
